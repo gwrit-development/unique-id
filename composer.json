@@ -1,0 +1,37 @@
+{
+  "name": "gwrit-development/unique-id",
+  "description": "Unique bigint id generator",
+  "keywords": ["unique", "id", "generator", "laravel"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gwrit Development Team",
+      "email": "gwrit.book@gmail.com"
+    },
+    {
+      "name": "Elias Tutungi",
+      "email": "eliasjtg1@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "laravel/framework": "8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GwritDevelopment\\UniqueID\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "8.x-dev"
+    },
+    "laravel": {
+      "providers": [
+        "GwritDevelopment\\UniqueID\\ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
